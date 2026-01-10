@@ -1,0 +1,29 @@
+.stackRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 16px;
+  gap: 16px;
+}
+
+.stackItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 20px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 10%);
+  border: 2px solid hsl(0, 0%, 20%);
+}
+.stackItem img {
+  height: 20px;
+}
+.stackItem .line {
+  width: 2px;
+  height: 150%;
+  border-radius: 2px;
+  background-color: hsl(0, 0%, 20%);
+}/*# sourceMappingURL=stack.css.map */

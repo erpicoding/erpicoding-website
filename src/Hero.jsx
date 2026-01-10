@@ -10,8 +10,9 @@ function Hero() {
         </h1>
         <h2>
           I am a [<span className="highlightText">"Frontend-Developer"</span>,
-          <span className="highlightText">"Web-Designer"</span>] located in
-          Germany
+          <wbr />
+          <span className="highlightText">"Web&#8209;Designer"</span>] located
+          in Germany
         </h2>
         <div className="line"></div>
         <div className="links">

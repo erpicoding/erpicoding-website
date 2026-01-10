@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <section>
+    <section className="contentSection">
       <h2>About Me</h2>
       <div className="infotext">
         <p>

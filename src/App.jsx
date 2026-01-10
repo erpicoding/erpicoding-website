@@ -1,6 +1,6 @@
 import Hero from "./Hero.jsx";
 import AboutMe from "./AboutMe.jsx";
-import Skils from "./Skils.jsx";
+import Stack from "./Stack.jsx";
 import Projects from "./Projects.jsx";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Hero />
       <main>
         <AboutMe />
-        <Skils />
+        <Stack />
         <Projects />
       </main>
     </>

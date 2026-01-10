@@ -1,0 +1,52 @@
+$bg-black: hsl(0, 0%, 0%);
+$bg-grey: hsl(0, 0%, 15%);
+
+$invisible: hsla(0, 0%, 0%, 0);
+
+$petrol-transparent: hsl(180, 80%, 50%, 0.5);
+$petrol-transparent-light: hsla(180, 100%, 50%, 0.5);
+$petrol-ultra-transparent: hsla(182, 63%, 54%, 0.2);
+$petrol-dark-transparent: hsla(182, 63%, 54%, 0.25);
+
+$petrol-solid: hsl(182, 54%, 27%);
+$petrol-glow: hsl(182, 90%, 50%);
+
+$gradient1: hsl(56, 100%, 56%);
+
+$text: hsl(0, 0%, 95%);
+$text-grey: hsl(0, 0%, 60%);
+
+.stackRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 16px;
+  gap: 16px;
+}
+.stackItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 20px;
+  padding: 10px;
+  gap: 10px;
+
+  border-radius: 8px;
+
+  background-color: hsl(0, 0%, 10%);
+  border: 2px solid hsl(0, 0%, 20%);
+
+  img {
+    height: 20px;
+  }
+  .line {
+    width: 2px;
+    height: 150%;
+
+    border-radius: 2px;
+    background-color: hsl(0, 0%, 20%);
+  }
+}
