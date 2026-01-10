@@ -1,22 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-
-$bg-black: hsl(0, 0%, 0%);
-$bg-grey: hsl(0, 0%, 15%);
-
-$invisible: hsla(0, 0%, 0%, 0);
-
-$petrol-transparent: hsl(180, 80%, 50%, 0.5);
-$petrol-transparent-light: hsla(180, 100%, 50%, 0.5);
-$petrol-ultra-transparent: hsla(182, 63%, 54%, 0.2);
-$petrol-dark-transparent: hsla(182, 63%, 54%, 0.25);
-
-$petrol-solid: hsl(182, 54%, 27%);
-$petrol-glow: hsl(182, 90%, 50%);
-
-$gradient1: hsl(56, 100%, 56%);
-
-$text: hsl(0, 0%, 95%);
-$text-grey: hsl(0, 0%, 60%);
+@use "var" as *;
 
 /*header bild*/
 
