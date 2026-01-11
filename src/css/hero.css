@@ -136,7 +136,7 @@ header {
   top: 50vh;
   left: 50%;
   transform: translateY(-50%);
-  height: 400px;
+  height: 380px;
   width: 40vw;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
@@ -145,11 +145,22 @@ header {
   border-radius: 25px;
   transition: 500ms;
 }
+.banner h1,
+.banner h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.banner h1 {
+  line-height: 40px;
+}
+.banner h2 {
+  line-height: 34px;
+}
 .banner .line {
-  height: 2px;
+  height: 4px;
   width: 80%;
-  border-radius: 1px;
-  background-color: hsl(0, 0%, 50%);
+  border-radius: 2px;
+  background-color: hsl(0, 0%, 20%);
 }
 .banner .links {
   width: 100%;

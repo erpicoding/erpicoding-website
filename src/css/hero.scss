@@ -160,7 +160,7 @@ header {
   left: calc(50%);
   transform: translateY(-50%);
 
-  height: 400px;
+  height: 380px;
   width: 40vw;
 
   backdrop-filter: blur(5px);
@@ -170,13 +170,26 @@ header {
   border-radius: 25px;
   transition: 500ms;
 
+  h1,
+  h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    line-height: 40px;
+  }
+  h2 {
+    line-height: 34px;
+  }
+
   .line {
-    height: 2px;
+    height: 4px;
     width: 80%;
 
-    border-radius: 1px;
+    border-radius: 2px;
 
-    background-color: hsl(0, 0%, 50%);
+    background-color: $element-details;
   }
   .links {
     width: 100%;

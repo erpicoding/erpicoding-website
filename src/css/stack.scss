@@ -20,8 +20,8 @@
 
   border-radius: 8px;
 
-  background-color: hsl(0, 0%, 10%);
-  border: 2px solid hsl(0, 0%, 20%);
+  background-color: $element-bg;
+  border: 2px solid $element-details;
 
   img {
     height: 20px;
