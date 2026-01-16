@@ -1,15 +1,13 @@
 $bg-black: hsl(0, 0%, 0%);
-$bg-grey: hsl(0, 0%, 15%);
 
 $element-bg: hsl(0, 0%, 10%);
-$element-details: hsl(0, 0%, 20%);
+$element-bg-light: hsl(0, 0%, 20%);
+$element-details: hsl(0, 0%, 25%);
 
 $invisible: hsla(0, 0%, 0%, 0);
 
 $petrol-transparent: hsl(180, 80%, 50%, 0.5);
-$petrol-transparent-light: hsla(180, 100%, 50%, 0.5);
-$petrol-ultra-transparent: hsla(182, 63%, 54%, 0.2);
-$petrol-dark-transparent: hsla(182, 63%, 54%, 0.25);
+$petrol-transparent-light: hsla(180, 100%, 50%, 0.5); //scroll bar
 
 $petrol-solid: hsl(182, 54%, 27%);
 $petrol-glow: hsl(182, 90%, 50%);
