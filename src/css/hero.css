@@ -1,7 +1,7 @@
 /*header bild*/
 header {
   min-height: 100vh;
-  background: linear-gradient(hsla(180, 80%, 50%, 0.5), rgba(0, 0, 0, 0.7)), url(/img/headerBackground.webp) center/cover no-repeat;
+  background: linear-gradient(hsla(180, 80%, 50%, 0.7), rgba(0, 0, 0, 0.7)), url(/img/headerBackground.webp) center/cover no-repeat;
 }
 
 .banner {
@@ -77,6 +77,12 @@ header {
     top: 50vh;
     left: 50%;
     transform: translate(-50%, -50%) !important;
+  }
+}
+@supports (corner-shape: squircle) {
+  .banner {
+    corner-shape: squircle;
+    border-radius: 120px;
   }
 }
 @property --angle {

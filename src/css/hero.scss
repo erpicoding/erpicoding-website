@@ -4,7 +4,8 @@
 
 header {
   min-height: 100vh;
-  background: linear-gradient($petrol-transparent, rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient($petrol-transparent, rgba(0, 0, 0, 0.7)),
     url(/img/headerBackground.webp) center/cover no-repeat;
 }
 
@@ -96,13 +97,21 @@ header {
   }
 }
 
+@supports (corner-shape: squircle) {
+  .banner {
+    corner-shape: squircle;
+    border-radius: 120px;
+  }
+}
+
 @property --angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
 }
 .borderAnimation {
-  background: linear-gradient(0deg, hsl(0, 0%, 5%), hsl(0, 0%, 10%)) padding-box,
+  background:
+    linear-gradient(0deg, hsl(0, 0%, 5%), hsl(0, 0%, 10%)) padding-box,
     conic-gradient(
         from var(--angle),
         $invisible 0%,
