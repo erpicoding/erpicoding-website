@@ -12,14 +12,14 @@ function Projects() {
           name="Homework-Manager"
           img={imgHA}
           stack={["Html", "CSS", "JavaScript"]}
-          linkOpen="https://erpicoding.github.io/Hausaufgaben-Manager"
+          linkOpen="https://erpicoding.de/ha"
           linkGH="https://github.com/erpicoding/Hausaufgaben-Manager"
         />
         <ProjectItem
           name="Encryption tool"
           img={imgEncryptor}
           stack={["Html", "SCSS", "JavaScript"]}
-          linkOpen="https://erpicoding.github.io/secret-message-generator/"
+          linkOpen="https://erpicoding.de/smg"
           linkGH="https://github.com/erpicoding/secret-message-generator/"
         />
       </div>
