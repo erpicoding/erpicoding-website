@@ -7,13 +7,17 @@ function ProjectItem(props) {
       <h3>{props.name}</h3>
       <img width="100%" src={props.img} />
       <p>{stackList}</p>
-      <div class="links">
+      <div className="links">
         <a target="_blank" href={props.linkOpen}>
           Open
         </a>
-        <a className="github" href={props.linkGH}>
-          Github
-        </a>
+        {props.GH === true ? (
+          <a className="github" href={props.linkGH}>
+            Github
+          </a>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );
