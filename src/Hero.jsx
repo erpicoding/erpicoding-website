@@ -5,14 +5,15 @@ function Hero() {
     <header>
       <div className="banner borderAnimation">
         <h1>
-          Hi, My name is <br />
+          Moin, ich heiße <br />
           <span className="highlightText">Erik</span>
         </h1>
         <h2>
-          I am a [<span className="highlightText">"Frontend-Developer"</span>,
+          Ich bin Freizeit [
+          <span className="highlightText">"Frontend-Developer"</span>,
           <wbr />
-          <span className="highlightText">"Web&#8209;Designer"</span>] located
-          in Germany
+          <span className="highlightText">"Web-Designer"</span>] aus
+          Braunschweig
         </h2>
         <div className="line"></div>
         <div className="links">

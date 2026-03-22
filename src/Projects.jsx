@@ -7,27 +7,28 @@ import ProjectItem from "./ProjectItem.jsx";
 function Projects() {
   return (
     <section className="contentSection">
-      <h2>Projects</h2>
+      <h2>Projekte</h2>
       <div className="projektContainer">
         <ProjectItem
           name="Dalton-Manager"
           img={imgDalton}
           stack={["React", "JavaScript", "SCSS"]}
           linkOpen="https://dalton.erpicoding.de/"
-          GH={false}
+          GH={true}
+          linkGH="https://github.com/erpicoding/dalton-manager"
         />
         <ProjectItem
-          name="Homework-Manager"
+          name="Hausaufgaben-Manager"
           img={imgHA}
-          stack={["Html", "CSS", "JavaScript"]}
+          stack={["HTML", "CSS", "JavaScript"]}
           linkOpen="https://erpicoding.de/ha"
           GH={true}
           linkGH="https://github.com/erpicoding/Hausaufgaben-Manager"
         />
         <ProjectItem
-          name="Encryption tool"
+          name="Verschlüsselungs-Programm"
           img={imgEncryptor}
-          stack={["Html", "SCSS", "JavaScript"]}
+          stack={["HTML", "SCSS", "JavaScript"]}
           linkOpen="https://erpicoding.de/smg"
           GH={true}
           linkGH="https://github.com/erpicoding/secret-message-generator/"

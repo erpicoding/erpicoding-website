@@ -45,7 +45,6 @@ h6 {
 }
 
 .infotext {
-  width: calc(100% - 100px);
   padding: 25px;
   margin: 25px;
 
@@ -54,8 +53,27 @@ h6 {
   background: linear-gradient(0deg, hsl(0, 0%, 5%), hsl(0, 0%, 10%));
   box-shadow: inset 0 1px 2px hsl(0, 0%, 30%);
 
-  text-wrap: balance;
-
   font-size: larger;
   overflow: hidden;
+}
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+
+  padding: 25px;
+  margin: 25px;
+
+  border-radius: 25px;
+
+  background: linear-gradient(0deg, hsl(0, 0%, 5%), hsl(0, 0%, 10%));
+  box-shadow: inset 0 1px 2px hsl(0, 0%, 30%);
+
+  font-size: larger;
+  .date {
+    color: $text-grey;
+    font-style: italic;
+  }
 }

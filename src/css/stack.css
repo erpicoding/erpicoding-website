@@ -29,14 +29,19 @@
   gap: 10px;
   border-radius: 8px;
   background-color: hsl(0, 0%, 10%);
-  border: 2px solid hsl(0, 0%, 25%);
+  border: 2px solid hsl(0, 0%, 30%);
 }
 .stackItem img {
-  height: 20px;
+  width: 24px;
+  border-radius: 2px;
 }
 .stackItem .line {
   width: 2px;
   height: 150%;
   border-radius: 2px;
-  background-color: hsl(0, 0%, 25%);
+  background-color: hsl(0, 0%, 30%);
+}
+.stackItem p {
+  color: hsl(0, 0%, 60%);
+  font-weight: 500;
 }/*# sourceMappingURL=stack.css.map */

@@ -9,7 +9,7 @@ function ProjectItem(props) {
       <p>{stackList}</p>
       <div className="links">
         <a target="_blank" href={props.linkOpen}>
-          Open
+          Öffnen
         </a>
         {props.GH === true ? (
           <a className="github" href={props.linkGH}>

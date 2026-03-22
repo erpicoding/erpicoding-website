@@ -36,7 +36,8 @@
   border: 2px solid $element-details;
 
   img {
-    height: 20px;
+    width: 24px;
+    border-radius: 2px;
   }
   .line {
     width: 2px;
@@ -44,5 +45,9 @@
 
     border-radius: 2px;
     background-color: $element-details;
+  }
+  p {
+    color: $text-grey;
+    font-weight: 500;
   }
 }
