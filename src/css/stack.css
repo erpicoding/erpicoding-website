@@ -1,7 +1,20 @@
-.stackRow {
+.stackSection {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .stackSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: baseline;
   margin: 16px;
   gap: 16px;
 }
