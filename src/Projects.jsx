@@ -15,7 +15,7 @@ function Projects() {
           stack={["React", "JavaScript", "SCSS"]}
           linkOpen="https://dalton.erpicoding.de/"
           GH={true}
-          linkGH="https://github.com/erpicoding/dalton-manager"
+          linkGH="https://github.com/erpicoding/dalton-manager/?info"
         />
         <ProjectItem
           name="Hausaufgaben-Manager"
