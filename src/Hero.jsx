@@ -1,4 +1,5 @@
 import githubLogo from "./assets/logos/github.svg";
+import mailLogo from "./assets/logos/mail.svg";
 
 function Hero() {
   return (
@@ -19,6 +20,9 @@ function Hero() {
         <div className="links">
           <a href="https://github.com/erpicoding">
             <img src={githubLogo} height="34px" />
+          </a>
+          <a href="mailto://erik@erpicoding.de">
+            <img src={mailLogo} height="40px" />
           </a>
         </div>
       </div>
