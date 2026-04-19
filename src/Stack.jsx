@@ -1,9 +1,9 @@
 import scssImg from "./assets/logos/scss.svg";
 import reactImg from "./assets/logos/react.png";
 import nodeImg from "./assets/logos/node.svg";
-
 import expressImg from "./assets/logos/express.jpg";
 import jsImg from "./assets/logos/js.svg";
+import mongodbImg from "./assets/logos/mongodb.png";
 
 import StackItem from "./StackItem";
 
@@ -20,6 +20,7 @@ function Stack() {
         <h2>Backend</h2>
         <StackItem name="NodeJS" img={nodeImg} />
         <StackItem name="express" img={expressImg} />
+        <StackItem name="Mongo DB" img={mongodbImg} />
       </div>
     </section>
   );

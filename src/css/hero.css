@@ -43,7 +43,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .banner .links .bannerLink {
   height: 20px;
