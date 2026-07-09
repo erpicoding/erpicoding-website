@@ -1,7 +1,7 @@
 /*header bild*/
 header {
   min-height: 100vh;
-  background: linear-gradient(hsla(180, 80%, 50%, 0.7), rgba(0, 0, 0, 0.7)), url(https://erpicoding.de/img/headerBackground.webp) center/cover no-repeat;
+  background: linear-gradient(hsla(180, 80%, 50%, 0.7), hsl(0, 0%, 1%)), url(https://erpicoding.de/img/headerBackground.webp) center/cover no-repeat;
 }
 
 .banner {
@@ -19,7 +19,7 @@ header {
   width: 40vw;
   backdrop-filter: blur(5px);
   box-shadow: inset 0 2px 4px hsl(0, 0%, 30%);
-  border-radius: 25px;
+  border-radius: 40px;
   transition: 500ms;
 }
 .banner h1,
@@ -28,7 +28,8 @@ header {
   padding-right: 20px;
 }
 .banner h1 {
-  line-height: 40px;
+  line-height: 80px;
+  font-size: 40px;
 }
 .banner h2 {
   line-height: 34px;
@@ -44,27 +45,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-.banner .links .bannerLink {
-  height: 20px;
-  width: 100px;
-  padding: 5px;
-  align-content: center;
-  font-weight: bold;
-  text-decoration: none;
-  border: 2px solid hsl(0, 0%, 90%);
-  border-radius: 20px;
-  transition: 1000ms;
-}
-.banner .links .bannerLink:hover {
-  background-color: hsl(0, 0%, 90%);
-  color: hsl(0, 0%, 20%);
-}
-.banner .links .bannerLink:hover span {
-  color: hsl(0, 0%, 20%);
-}
-.banner .links .bannerLink span {
-  transition: 1000ms;
 }
 
 @media (max-width: 600px) {
